@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <SchemaVersion>2.0</SchemaVersion>
+        <ProjectGuid>{af2877dc-cd6b-4797-8f7a-0e6bee63a4bb}</ProjectGuid>
+        <ProjectHome />
+        <ProjectView>ShowAllFiles</ProjectView>
+        <StartupFile />
+        <WorkingDirectory>.</WorkingDirectory>
+        <OutputPath>.</OutputPath>
+        <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+        <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+        <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+    <ItemGroup>
+        <Content Include="etherpad_icon.svg" />
+        <Content Include="ep.json" />
+        <Content Include="package.json" />
+        <Content Include="README.md" />
+        <Content Include="locales\af.json" />
+        <Content Include="locales\ar.json" />
+        <Content Include="locales\ast.json" />
+        <Content Include="locales\awa.json" />
+        <Content Include="locales\az.json" />
+        <Content Include="locales\azb.json" />
+        <Content Include="locales\bcc.json" />
+        <Content Include="locales\be-tarask.json" />
+        <Content Include="locales\bgn.json" />
+        <Content Include="locales\bn.json" />
+        <Content Include="locales\br.json" />
+        <Content Include="locales\ca.json" />
+        <Content Include="locales\cs.json" />
+        <Content Include="locales\da.json" />
+        <Content Include="locales\de.json" />
+        <Content Include="locales\diq.json" />
+        <Content Include="locales\dsb.json" />
+        <Content Include="locales\el.json" />
+        <Content Include="locales\en-gb.json" />
+        <Content Include="locales\en.json" />
+        <Content Include="locales\eo.json" />
+        <Content Include="locales\es.json" />
+        <Content Include="locales\et.json" />
+        <Content Include="locales\eu.json" />
+        <Content Include="locales\fa.json" />
+        <Content Include="locales\fi.json" />
+        <Content Include="locales\fo.json" />
+        <Content Include="locales\fr.json" />
+        <Content Include="locales\gl.json" />
+        <Content Include="locales\he.json" />
+        <Content Include="locales\hrx.json" />
+        <Content Include="locales\hsb.json" />
+        <Content Include="locales\hu.json" />
+        <Content Include="locales\ia.json" />
+        <Content Include="locales\is.json" />
+        <Content Include="locales\it.json" />
+        <Content Include="locales\ja.json" />
+        <Content Include="locales\km.json" />
+        <Content Include="locales\ko.json" />
+        <Content Include="locales\ksh.json" />
+        <Content Include="locales\ku-latn.json" />
+        <Content Include="locales\lb.json" />
+        <Content Include="locales\lki.json" />
+        <Content Include="locales\lrc.json" />
+        <Content Include="locales\lt.json" />
+        <Content Include="locales\lv.json" />
+        <Content Include="locales\map-bms.json" />
+        <Content Include="locales\mk.json" />
+        <Content Include="locales\ml.json" />
+        <Content Include="locales\mn.json" />
+        <Content Include="locales\mr.json" />
+        <Content Include="locales\ms.json" />
+        <Content Include="locales\nap.json" />
+        <Content Include="locales\nb.json" />
+        <Content Include="locales\nds.json" />
+        <Content Include="locales\ne.json" />
+        <Content Include="locales\nl.json" />
+        <Content Include="locales\nn.json" />
+        <Content Include="locales\oc.json" />
+        <Content Include="locales\os.json" />
+        <Content Include="locales\pa.json" />
+        <Content Include="locales\pl.json" />
+        <Content Include="locales\ps.json" />
+        <Content Include="locales\pt-br.json" />
+        <Content Include="locales\pt.json" />
+        <Content Include="locales\ro.json" />
+        <Content Include="locales\ru.json" />
+        <Content Include="locales\sco.json" />
+        <Content Include="locales\sk.json" />
+        <Content Include="locales\sl.json" />
+        <Content Include="locales\sq.json" />
+        <Content Include="locales\sr-ec.json" />
+        <Content Include="locales\sv.json" />
+        <Content Include="locales\te.json" />
+        <Content Include="locales\tr.json" />
+        <Content Include="locales\uk.json" />
+        <Content Include="locales\vi.json" />
+        <Content Include="locales\zh-hans.json" />
+        <Content Include="locales\zh-hant.json" />
+        <Content Include="node\README.md" />
+        <Compile Include="node\easysync_tests.js" />
+        <Compile Include="node\padaccess.js" />
+        <Compile Include="node\server.js" />
+        <Compile Include="node\stats.js" />
+        <Content Include="static\robots.txt" />
+        <Content Include="static\tests.html" />
+        <Content Include="static\favicon.ico" />
+        <Content Include="templates\index.html" />
+        <Content Include="templates\pad.html" />
+        <Content Include="templates\timeslider.html" />
+        <Compile Include="node\db\API.js" />
+        <Compile Include="node\db\AuthorManager.js" />
+        <Compile Include="node\db\DB.js" />
+        <Compile Include="node\db\GroupManager.js" />
+        <Compile Include="node\db\Pad.js" />
+        <Compile Include="node\db\PadManager.js" />
+        <Compile Include="node\db\ReadOnlyManager.js" />
+        <Compile Include="node\db\SecurityManager.js" />
+        <Compile Include="node\db\SessionManager.js" />
+        <Compile Include="node\db\SessionStore.js" />
+        <Compile Include="node\eejs\index.js" />
+        <Compile Include="node\handler\APIHandler.js" />
+        <Compile Include="node\handler\ExportHandler.js" />
+        <Compile Include="node\handler\ImportHandler.js" />
+        <Compile Include="node\handler\PadMessageHandler.js" />
+        <Compile Include="node\handler\SocketIORouter.js" />
+        <Compile Include="node\hooks\express.js" />
+        <Compile Include="node\hooks\i18n.js" />
+        <Content Include="node\utils\tar.json" />
+        <Compile Include="node\utils\Abiword.js" />
+        <Compile Include="node\utils\caching_middleware.js" />
+        <Compile Include="node\utils\Cli.js" />
+        <Compile Include="node\utils\customError.js" />
+        <Compile Include="node\utils\ExportEtherpad.js" />
+        <Compile Include="node\utils\ExportHelper.js" />
+        <Compile Include="node\utils\ExportHtml.js" />
+        <Compile Include="node\utils\ExportTxt.js" />
+        <Compile Include="node\utils\ImportEtherpad.js" />
+        <Compile Include="node\utils\ImportHtml.js" />
+        <Compile Include="node\utils\Minify.js" />
+        <Compile Include="node\utils\padDiff.js" />
+        <Compile Include="node\utils\randomstring.js" />
+        <Compile Include="node\utils\RemoteAddress.js" />
+        <Compile Include="node\utils\Settings.js" />
+        <Compile Include="node\utils\TidyHtml.js" />
+        <Compile Include="node\utils\toolbar.js" />
+        <Content Include="node\eejs\examples\bar.ejs" />
+        <Content Include="node\eejs\examples\foo.ejs" />
+        <Compile Include="node\hooks\express\admin.js" />
+        <Compile Include="node\hooks\express\adminplugins.js" />
+        <Compile Include="node\hooks\express\adminsettings.js" />
+        <Compile Include="node\hooks\express\apicalls.js" />
+        <Compile Include="node\hooks\express\errorhandling.js" />
+        <Compile Include="node\hooks\express\importexport.js" />
+        <Compile Include="node\hooks\express\padreadonly.js" />
+        <Compile Include="node\hooks\express\padurlsanitize.js" />
+        <Compile Include="node\hooks\express\socketio.js" />
+        <Compile Include="node\hooks\express\specialpages.js" />
+        <Compile Include="node\hooks\express\static.js" />
+        <Compile Include="node\hooks\express\swagger.js" />
+        <Compile Include="node\hooks\express\tests.js" />
+        <Compile Include="node\hooks\express\webaccess.js" />
+        <Content Include="static\css\admin.css" />
+        <Content Include="static\css\iframe_editor.css" />
+        <Content Include="static\css\pad.css" />
+        <Content Include="static\css\timeslider.css" />
+        <Content Include="static\font\fontawesome-etherpad.svg" />
+        <Content Include="static\font\config.json" />
+        <Compile Include="static\js\ace.js" />
+        <Compile Include="static\js\ace2_common.js" />
+        <Compile Include="static\js\ace2_inner.js" />
+        <Compile Include="static\js\AttributeManager.js" />
+        <Compile Include="static\js\AttributePool.js" />
+        <Compile Include="static\js\broadcast.js" />
+        <Compile Include="static\js\broadcast_revisions.js" />
+        <Compile Include="static\js\broadcast_slider.js" />
+        <Compile Include="static\js\browser.js" />
+        <Compile Include="static\js\Changeset.js" />
+        <Compile Include="static\js\changesettracker.js" />
+        <Compile Include="static\js\ChangesetUtils.js" />
+        <Compile Include="static\js\chat.js" />
+        <Compile Include="static\js\collab_client.js" />
+        <Compile Include="static\js\colorutils.js" />
+        <Compile Include="static\js\contentcollector.js" />
+        <Compile Include="static\js\cssmanager.js" />
+        <Compile Include="static\js\domline.js" />
+        <Compile Include="static\js\excanvas.js" />
+        <Compile Include="static\js\farbtastic.js" />
+        <Compile Include="static\js\gritter.js" />
+        <Compile Include="static\js\html10n.js" />
+        <Compile Include="static\js\jquery.js" />
+        <Compile Include="static\js\json2.js" />
+        <Compile Include="static\js\l10n.js" />
+        <Compile Include="static\js\linestylefilter.js" />
+        <Compile Include="static\js\pad.js" />
+        <Compile Include="static\js\pad_connectionstatus.js" />
+        <Compile Include="static\js\pad_cookie.js" />
+        <Compile Include="static\js\pad_editbar.js" />
+        <Compile Include="static\js\pad_editor.js" />
+        <Compile Include="static\js\pad_impexp.js" />
+        <Compile Include="static\js\pad_modals.js" />
+        <Compile Include="static\js\pad_savedrevs.js" />
+        <Compile Include="static\js\pad_userlist.js" />
+        <Compile Include="static\js\pad_utils.js" />
+        <Compile Include="static\js\rjquery.js" />
+        <Compile Include="static\js\security.js" />
+        <Compile Include="static\js\skiplist.js" />
+        <Compile Include="static\js\timeslider.js" />
+        <Compile Include="static\js\underscore.js" />
+        <Compile Include="static\js\undomodule.js" />
+        <Compile Include="static\js\admin\jquery.autosize.js" />
+        <Compile Include="static\js\admin\minify.json.js" />
+        <Compile Include="static\js\admin\plugins.js" />
+        <Compile Include="static\js\admin\settings.js" />
+        <Compile Include="static\js\pluginfw\client_plugins.js" />
+        <Compile Include="static\js\pluginfw\hooks.js" />
+        <Compile Include="static\js\pluginfw\installer.js" />
+        <Compile Include="static\js\pluginfw\plugins.js" />
+        <Compile Include="static\js\pluginfw\read-installed.js" />
+        <Compile Include="static\js\pluginfw\shared.js" />
+        <Compile Include="static\js\pluginfw\tsort.js" />
+        <Content Include="templates\admin\index.html" />
+        <Content Include="templates\admin\plugins-info.html" />
+        <Content Include="templates\admin\plugins.html" />
+        <Content Include="templates\admin\settings.html" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="locales" />
+        <Folder Include="node" />
+        <Folder Include="node\db" />
+        <Folder Include="node\eejs" />
+        <Folder Include="node\eejs\examples" />
+        <Folder Include="node\handler" />
+        <Folder Include="node\hooks" />
+        <Folder Include="node\hooks\express" />
+        <Folder Include="node\utils" />
+        <Folder Include="static" />
+        <Folder Include="static\css" />
+        <Folder Include="static\font" />
+        <Folder Include="static\js" />
+        <Folder Include="static\js\admin" />
+        <Folder Include="static\js\pluginfw" />
+        <Folder Include="templates" />
+        <Folder Include="templates\admin" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+    <ProjectExtensions>
+        <VisualStudio>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+            <WebProjectProperties>
+              <UseIIS>False</UseIIS>
+              <AutoAssignPort>True</AutoAssignPort>
+              <DevelopmentServerPort>0</DevelopmentServerPort>
+              <DevelopmentServerVPath>/</DevelopmentServerVPath>
+              <IISUrl>http://localhost:48022/</IISUrl>
+              <NTLMAuthentication>False</NTLMAuthentication>
+              <UseCustomServer>True</UseCustomServer>
+              <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+              <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+            </WebProjectProperties>
+          </FlavorProperties>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+            <WebProjectProperties>
+              <StartPageUrl>
+              </StartPageUrl>
+              <StartAction>CurrentPage</StartAction>
+              <AspNetDebugging>True</AspNetDebugging>
+              <SilverlightDebugging>False</SilverlightDebugging>
+              <NativeDebugging>False</NativeDebugging>
+              <SQLDebugging>False</SQLDebugging>
+              <ExternalProgram>
+              </ExternalProgram>
+              <StartExternalURL>
+              </StartExternalURL>
+              <StartCmdLineArguments>
+              </StartCmdLineArguments>
+              <StartWorkingDirectory>
+              </StartWorkingDirectory>
+              <EnableENC>False</EnableENC>
+              <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+            </WebProjectProperties>
+          </FlavorProperties>
+        </VisualStudio>
+    </ProjectExtensions>
+</Project>
